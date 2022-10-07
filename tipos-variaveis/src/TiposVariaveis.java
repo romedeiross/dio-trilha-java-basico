@@ -7,6 +7,9 @@ public class TiposVariaveis {
         short numeroCurto2 = (short) numeroNormal;
 
     //Variável X Constantes
-        
+
+    final double VALOR_PI = 3.14; // utilizando o "final" não conseguimos alterar o valor da variável.
+    final int x = 12;
+    
     }
 }
