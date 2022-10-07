@@ -39,6 +39,20 @@ public class Operadores {
      boolean variavel = true;
         System.out.println(!variavel);
 
+    //Operador ternário
+    /*Operador ternário é representado pelos simbolos ?: utilizados da seguinte forma */
+    String resultado = a==b ?"verdadeiro" : "falso";
+    String resultado2 = a>b ?"verdadeiro" : "falso";
+    String resultado3 = a<b?"verdadeiro" : "falso";
+    String resultado4 = a>=b ?"verdadeiro" : "falso";
+    String resultado5 = a<=b?"verdadeiro" : "falso";
+
+    System.out.println(resultado);
+    System.out.println(resultado2);
+    System.out.println(resultado3);
+    System.out.println(resultado4);
+    System.out.println(resultado5);
+        
     }
     
 }
